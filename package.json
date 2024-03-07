@@ -7,7 +7,7 @@
     "build": "vitepress build ./",
     "serve": "vitepress serve ./",
     "deploy": "ssh root@101.43.223.31 'bash ~/docker-nginx/deploy_sh/vite-note.sh'",
-    "push": "npm run build && git-auto push -m 'update'"
+    "push": "npm run build && git add -f . && git commit -m 'update' && git push"
   },
   "devDependencies": {
     "shelljs": "^0.8.5"
