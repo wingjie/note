@@ -80,12 +80,12 @@ module.exports = {
       buttonText: '搜索',
     },
     nav: [{
-        text: 'React',
-        link: '/src/frontend/React/'
-      },
-      {
         text: 'Vue',
         link: '/src/frontend/Vue/'
+      },
+      {
+        text: 'React',
+        link: '/src/frontend/React/'
       },
       {
         text: 'node',
