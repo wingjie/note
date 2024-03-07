@@ -13,7 +13,7 @@ const resolve = (...args) => {
 // 生成首页README.md的目录
 createREADME('frontend')
 
-const BASE_URL = process.argv.includes('--gitee') ? '/vite-note/' : '/';
+const BASE_URL = '/vite-note/' //process.argv.includes('--gitee') ? '/vite-note/' : '/vite-note/';
 
 module.exports = {
   base: BASE_URL,
@@ -65,7 +65,7 @@ module.exports = {
     ['script', {}, fs.readFileSync(resolve('./share/hm.js'), 'utf-8')]
   ],
   themeConfig: {
-    repo: 'https://gitee.com/hnys/vite-note',
+    repo: 'https://gitee.com/lwj-wing/vite-note',
     repoLabel: 'Gitee',
     docsBranch: 'master',
     editLinks: true,
@@ -74,8 +74,10 @@ module.exports = {
     algolia: {
       // apiKey: '5afb4b8f5b191b92841aed8afa044013',
       // indexName: 'wing_h-note',
-      apiKey: '75033b31cce2d60aef3adfe4df1dbb4c',
-      indexName: 'wing_h-web'
+      apiKey: '4d3c346302da641f2f6af345bbfb7f8d',
+      indexName: 'wing-web',
+      placeholder: '请输入关键词',
+      buttonText: '搜索',
     },
     nav: [{
         text: 'React',
@@ -104,8 +106,8 @@ module.exports = {
             link: 'https://lwj-wing.gitee.io/vue3-ant-dome-dos/#/readme/form'
           },
           {
-            text: '个人博客站',
-            link: 'https://blog.hrhe.cn'
+            text: '常用网页导航',
+            link: 'https://lwj-wing.gitee.io/wings-nav/'
           }
         ]
       }
