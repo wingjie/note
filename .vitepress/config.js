@@ -73,8 +73,10 @@ module.exports = {
     lastUpdated: '上次更新：', // 前缀使用
     algolia: {
       appId: "3CJLJW7LI7",
-      apiKey: '7af30568b55e6ef20782a354e0ee8ae0',
+      apiKey: "7af30568b55e6ef20782a354e0ee8ae0",
       indexName: "lwj-wing-gitee",
+      container: '### REPLACE ME WITH A CONTAINER (e.g. div) ###',
+      debug: false
     },
     nav: [{
         text: 'Vue',

@@ -1,3 +1,7 @@
 {
-  "cSpell.words": ["vitepress"]
+  "cSpell.words": ["vitepress"],
+  "workbench.colorCustomizations": {
+    "statusBar.background": "#f22ab6",
+    "statusBar.foreground": "#ffffff"
+  }
 }
