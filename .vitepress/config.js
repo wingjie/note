@@ -72,12 +72,9 @@ module.exports = {
     editLinkText: '在Gitee上编辑此页',
     lastUpdated: '上次更新：', // 前缀使用
     algolia: {
-      // apiKey: '5afb4b8f5b191b92841aed8afa044013',
-      // indexName: 'wing_h-note',
-      apiKey: '4d3c346302da641f2f6af345bbfb7f8d',
-      indexName: 'wing-web',
-      placeholder: '请输入关键词',
-      buttonText: '搜索',
+      appId: "3CJLJW7LI7",
+      apiKey: '7af30568b55e6ef20782a354e0ee8ae0',
+      indexName: "lwj-wing-gitee",
     },
     nav: [{
         text: 'Vue',
