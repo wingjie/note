@@ -7,7 +7,7 @@ const resolve = (...arg) => {
 }
 
 // 获取当前的所有路径
-function createREADME(dirname, name){
+function createREADME(dirname, name) {
   let curDir = fs.readdirSync(resolve(globalConfig.rootDir, name, dirname))
   curDir = curDir.filter(file => file.search(/(?<!index)\.md$/) !== -1)
   // 将空格统一替换成20%, 并作为地址
@@ -32,12 +32,12 @@ function createREADME(dirname, name){
     'webpack': '[webpack中文文档](https://www.webpackjs.com/)'
   }
 
-  let word  = website[dirname.toLowerCase()]
-  let str = '## 目录\r\r' + (word ? `官方文档：${word}\r\r` : '')
+  let word = website[dirname.toLowerCase()]
+  let str = '# 目录\r\r' + (word ? `官方文档：${word}\r\r` : '')
 
   // 添加目录
   hrefArr.forEach((_, index) => {
-    str+= `[${arr[index] + path.basename(hrefNameArr[index], '.md')}](${hrefArr[index]})\r\r`
+    str += `[${arr[index] + path.basename(hrefNameArr[index], '.md')}](${hrefArr[index]})\r\r`
   })
 
   // // 添加评论区域

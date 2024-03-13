@@ -1,18 +1,16 @@
 {
-  "name": "vite-note",
-  "main": "index.js",
-  "license": "MIT",
   "scripts": {
-    "start": "vitepress dev ./",
-    "build": "vitepress build ./",
-    "serve": "vitepress serve ./",
-    "deploy": "ssh root@101.43.223.31 'bash ~/docker-nginx/deploy_sh/vite-note.sh'",
+    "dev": "vitepress dev --port 8080",
+    "build": "vitepress build",
+    "preview": "vitepress preview",
     "build:push": "npm run build && git add . && git commit -m 'update' && git pull && git push"
   },
-  "devDependencies": {
-    "shelljs": "^0.8.5"
-  },
   "dependencies": {
-    "vitepress": "^0.21.4"
+    "vitepress": "^1.0.0-rc.45"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.26",
+    "fs": "0.0.1-security",
+    "path": "^0.12.7"
   }
 }

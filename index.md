@@ -1,17 +1,25 @@
 ---
-home: true
-heroImage: /logo.png
-heroText: 前端学习圈
-actionText: 开始学习 →
-actionLink: /src/frontend/Vue/
-features:
-- title: 作者简介
-  details: 前端工程师
-- title: 同步方式
-  details: Typora编写，VitePress插件自动编译打包
-- title: 内容介绍
-  details: 内容简洁，不废话，支持文档关键字搜索，笔记有很多做得不够详细的地方，具体内容请百度，方便复习面试题，以此记录学习路程
-  footer: MIT Licensed |
-  # Copyright © 2022-备案号：京ICP备2022004926号-1
----
+# https://vitepress.dev/reference/default-theme-home-page
+layout: home
 
+hero:
+  name: "My VitePress notes"
+  text: "Front-end learning document collection"
+  tagline: 前端、技术、学习
+  image: /logo.png
+  actions:
+    - theme: brand
+      text: 开始
+      link: /src/前端/
+    - theme: alt
+      text: API Examples
+      link: /api-examples
+
+features:
+  - title: Feature A
+    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: Feature B
+    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: Feature C
+    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+---
