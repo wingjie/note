@@ -12,6 +12,7 @@ export default defineConfig({
     ['link', { rel: 'icon', href: `${BASE_URL}/favicon.ico` }],
   ],
   themeConfig: {
+    returnToTopLabel: '回到顶部',
     footer: {
       message: '未来可期',
       copyright: 'Copyright © 2024-present Evan You'
@@ -41,7 +42,7 @@ export default defineConfig({
       // debug: false
     },
     editLink: {
-      pattern: 'https://gitee.com/lwj-wing/wing-note/edit/master/:path',
+      pattern: 'https://gitee.com/lwj-wing/vite-note/edit/master/:path',
       text: '在Gitee上编辑此页 '
     },
     lastUpdated: {
