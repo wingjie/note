@@ -1,6 +1,0 @@
-# 目录
-
-官方文档：[React-Native中文文档](https://reactnative.cn/)
-
-[一、react-native](rn-01%20react-native.md)
-

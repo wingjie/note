@@ -3,7 +3,9 @@
     "dev": "vitepress dev --port 8080",
     "build": "vitepress build",
     "preview": "vitepress preview",
-    "build:push": "npm run build && git add . && git commit -m 'update' && git pull && git push"
+    "build:push": "npm run build && git add . && git commit -m 'update' && git pull && git push && git status && npm run pull",
+    "pull": "git subtree pull --prefix=.vitepress/dist subtree master",
+    "push": "git subtree push --prefix=.vitepress/dist subtree master"
   },
   "dependencies": {
     "vitepress": "^1.0.0-rc.45"
