@@ -377,6 +377,7 @@ document.writeln 与 document.write的区别：仅仅是writeln多了一个换�
 
 ● window.onload 的作用？
 
+
 ● document.write() 与 innerHTML 的区别？
 
 
