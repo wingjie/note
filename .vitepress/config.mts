@@ -14,7 +14,7 @@ export default defineConfig({
   themeConfig: {
     returnToTopLabel: '回到顶部',
     footer: {
-      message: '未来可期',
+      message: 'The future is promising',
       copyright: 'Copyright © 2024-present Evan You'
     },
     // https://vitepress.dev/reference/default-theme-config
