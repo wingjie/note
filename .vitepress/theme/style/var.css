@@ -48,8 +48,8 @@
 
 
 :root {
-  /* --bg1: #c7ffdd;
-  --bg2: #fbd988; */
+  --bg1: rgba(199, 255, 221, 0.1);
+  --bg2: rgba(251, 217, 136, 0.1);
   /* --bg1: #bfbfbf; */
   /* --bg2: #e6e6e6; */
   /* 背景色 */
@@ -70,21 +70,15 @@
 }
 
 
-
-/* .image-container {
-  position: relative;
-  border-radius: 40px; */
-/* border: 1px solid pink; */
-
 .VPImage {
   border-radius: 50%;
   /* filter: drop-shadow(10px 10px 100px rgba(217, 57, 205, 0.9)); */
   animation: changeColor 10s infinite;
-  opacity: 0.9;
+  /* opacity: 0.9; */
 
   &:hover {
     /* 旋转45度 */
-    opacity: 1;
+    /* opacity: 1; */
     /* animation: changeColor 10s infinite, changeDeg 10s infinite;
     transform-origin: center; */
   }
@@ -122,7 +116,6 @@
 }
 
 .clip {
-  /* font-size: 40px; */
   font-family: 'Luckiest Guy', cursive;
 }
 
