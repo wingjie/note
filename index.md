@@ -16,8 +16,10 @@ hero:
       link: /api-examples
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - 
+    title: 网页导航
+    details: 常用网页导航搜集
+    link: https://lwj-wing.gitee.io/wings-nav/
   - title: Feature B
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
   - title: Feature C
