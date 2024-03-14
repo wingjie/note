@@ -35,11 +35,9 @@ export default defineConfig({
       { icon: 'github', link: 'https://gitee.com/lwj-wing/wing-note' }
     ],
     algolia: {
-      appId: "3CJLJW7LI7",
-      apiKey: "7af30568b55e6ef20782a354e0ee8ae0",
+      appId: "FUW80EKJZV",
+      apiKey: "e74789db71d10cd0ad6c02da6eb5ff6b",
       indexName: "lwj-wing-gitee",
-      // container: '### REPLACE ME WITH A CONTAINER (e.g. div) ###',
-      // debug: false
     },
     editLink: {
       pattern: 'https://gitee.com/lwj-wing/vite-note/edit/master/:path',
