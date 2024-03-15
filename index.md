@@ -20,8 +20,17 @@ features:
     title: 网页导航
     details: 常用网页导航搜集
     link: https://lwj-wing.gitee.io/wings-nav/
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  -
+    title: vite-plugin-iconify-preset
+    details: npm包 <br/>
+      vite、iconify、小图标
+    link: https://www.npmjs.com/package/vite-plugin-iconify-preset#vite-plugin-iconify-preset
+  - 
+    title: fair-wing
+    details: npm包 <br/>
+      处理属性结构数据
+    link: https://www.npmjs.com/package/fair-wing
+  - title: 组件使用文档
+    details: 基于Ant Design Vue UI封装的表单表格系统性组件
+    link: http://lwj-wing.gitee.io/vue3-ant-dome-dos
 ---

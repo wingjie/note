@@ -10,26 +10,65 @@
 @keyframes changeColor {
   0% {
     filter: drop-shadow(10px 10px 100px rgba(217, 57, 205, 0.9));
+    -webkit-filter: drop-shadow(10px 10px 100px rgba(217, 57, 205, 0.9));
+    /* Safari */
+    -moz-filter: drop-shadow(10px 10px 100px rgba(217, 57, 205, 0.9));
+    /* Firefox */
+    -ms-filter: drop-shadow(10px 10px 100px rgba(217, 57, 205, 0.9));
+    /* IE */
   }
 
   20% {
     filter: drop-shadow(10px 10px 15px rgba(160, 231, 229, 0.5));
+    -webkit-filter: drop-shadow(10px 10px 100px rgba(255, 165, 0, 0.9));
+    /* Safari */
+    -moz-filter: drop-shadow(10px 10px 100px rgba(255, 165, 0, 0.9));
+    /* Firefox */
+    -ms-filter: drop-shadow(10px 10px 100px rgba(255, 165, 0, 0.9));
+    /* IE */
+
   }
 
   40% {
     filter: drop-shadow(10px 10px 100px rgba(217, 205, 57, 0.9));
+    -webkit-filter: drop-shadow(10px 10px 100px rgba(255, 165, 0, 0.9));
+    /* Safari */
+    -moz-filter: drop-shadow(10px 10px 100px rgba(255, 165, 0, 0.9));
+    /* Firefox */
+    -ms-filter: drop-shadow(10px 10px 100px rgba(255, 165, 0, 0.9));
+    /* IE */
+
   }
 
   60% {
     filter: drop-shadow(10px 10px 15px rgba(57, 177, 217, 0.5));
+    -webkit-filter: drop-shadow(10px 10px 100px rgba(255, 165, 0, 0.9));
+    /* Safari */
+    -moz-filter: drop-shadow(10px 10px 100px rgba(255, 165, 0, 0.9));
+    /* Firefox */
+    -ms-filter: drop-shadow(10px 10px 100px rgba(255, 165, 0, 0.9));
+    /* IE */
+
   }
 
   80% {
     filter: drop-shadow(10px 10px 100px rgba(255, 165, 0, 0.9));
+    -webkit-filter: drop-shadow(10px 10px 100px rgba(255, 165, 0, 0.9));
+    /* Safari */
+    -moz-filter: drop-shadow(10px 10px 100px rgba(255, 165, 0, 0.9));
+    /* Firefox */
+    -ms-filter: drop-shadow(10px 10px 100px rgba(255, 165, 0, 0.9));
+    /* IE */
   }
 
   100% {
     filter: drop-shadow(10px 10px 100px rgba(217, 57, 205, 0.9));
+    -webkit-filter: drop-shadow(10px 10px 100px rgba(255, 165, 0, 0.9));
+    /* Safari */
+    -moz-filter: drop-shadow(10px 10px 100px rgba(255, 165, 0, 0.9));
+    /* Firefox */
+    -ms-filter: drop-shadow(10px 10px 100px rgba(255, 165, 0, 0.9));
+    /* IE */
   }
 }
 

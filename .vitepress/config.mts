@@ -24,8 +24,12 @@ export default defineConfig({
       label: '页面导航'
     },
     nav: [
-      { text: '主页', link: '/' },
-      { text: '常用网页导航', link: 'https://lwj-wing.gitee.io/wings-nav/' },
+      // { text: '主页', link: '/' },
+      // { text: '常用网页导航', link: 'https://lwj-wing.gitee.io/wings-nav/' },
+      { text: 'Vue', link: '/src/前端/Vue/' },
+      { text: 'Typescript', link: '/src/前端/Typescript/' },
+      { text: 'Javascript', link: '/src/前端/Javascript/' },
+      { text: 'html5', link: '/src/前端/html5/' },
       ...getNavData()
     ],
     sidebar: {
