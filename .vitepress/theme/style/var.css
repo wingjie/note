@@ -10,65 +10,26 @@
 @keyframes changeColor {
   0% {
     filter: drop-shadow(10px 10px 100px rgba(217, 57, 205, 0.9));
-    -webkit-filter: drop-shadow(10px 10px 100px rgba(217, 57, 205, 0.9));
-    /* Safari */
-    -moz-filter: drop-shadow(10px 10px 100px rgba(217, 57, 205, 0.9));
-    /* Firefox */
-    -ms-filter: drop-shadow(10px 10px 100px rgba(217, 57, 205, 0.9));
-    /* IE */
   }
 
   20% {
     filter: drop-shadow(10px 10px 15px rgba(160, 231, 229, 0.5));
-    -webkit-filter: drop-shadow(10px 10px 100px rgba(255, 165, 0, 0.9));
-    /* Safari */
-    -moz-filter: drop-shadow(10px 10px 100px rgba(255, 165, 0, 0.9));
-    /* Firefox */
-    -ms-filter: drop-shadow(10px 10px 100px rgba(255, 165, 0, 0.9));
-    /* IE */
-
   }
 
   40% {
     filter: drop-shadow(10px 10px 100px rgba(217, 205, 57, 0.9));
-    -webkit-filter: drop-shadow(10px 10px 100px rgba(255, 165, 0, 0.9));
-    /* Safari */
-    -moz-filter: drop-shadow(10px 10px 100px rgba(255, 165, 0, 0.9));
-    /* Firefox */
-    -ms-filter: drop-shadow(10px 10px 100px rgba(255, 165, 0, 0.9));
-    /* IE */
-
   }
 
   60% {
     filter: drop-shadow(10px 10px 15px rgba(57, 177, 217, 0.5));
-    -webkit-filter: drop-shadow(10px 10px 100px rgba(255, 165, 0, 0.9));
-    /* Safari */
-    -moz-filter: drop-shadow(10px 10px 100px rgba(255, 165, 0, 0.9));
-    /* Firefox */
-    -ms-filter: drop-shadow(10px 10px 100px rgba(255, 165, 0, 0.9));
-    /* IE */
-
   }
 
   80% {
     filter: drop-shadow(10px 10px 100px rgba(255, 165, 0, 0.9));
-    -webkit-filter: drop-shadow(10px 10px 100px rgba(255, 165, 0, 0.9));
-    /* Safari */
-    -moz-filter: drop-shadow(10px 10px 100px rgba(255, 165, 0, 0.9));
-    /* Firefox */
-    -ms-filter: drop-shadow(10px 10px 100px rgba(255, 165, 0, 0.9));
-    /* IE */
   }
 
   100% {
     filter: drop-shadow(10px 10px 100px rgba(217, 57, 205, 0.9));
-    -webkit-filter: drop-shadow(10px 10px 100px rgba(255, 165, 0, 0.9));
-    /* Safari */
-    -moz-filter: drop-shadow(10px 10px 100px rgba(255, 165, 0, 0.9));
-    /* Firefox */
-    -ms-filter: drop-shadow(10px 10px 100px rgba(255, 165, 0, 0.9));
-    /* IE */
   }
 }
 
@@ -87,12 +48,12 @@
 
 
 :root {
-  --bg1: rgba(199, 255, 221, 0.1);
-  --bg2: rgba(251, 217, 136, 0.1);
+  /* --bg1: rgba(199, 255, 221, 0.1);
+  --bg2: rgba(251, 217, 136, 0.1); */
   /* --bg1: #bfbfbf; */
   /* --bg2: #e6e6e6; */
   /* 背景色 */
-  --vp-c-bg: linear-gradient(to bottom, var(--bg1), var(--bg2));
+  /* --vp-c-bg: linear-gradient(to bottom, var(--bg1), var(--bg2)); */
 
   /* 标题 */
   --vp-home-hero-name-color: transparent;
@@ -103,9 +64,9 @@
 }
 
 .dark {
-  --bg1: #102128;
-  --bg2: #2d5567;
-  --vp-c-bg: linear-gradient(to bottom, var(--bg1), var(--bg2));
+  /* --bg1: #102128;
+  --bg2: #2d5567; */
+  /* --vp-c-bg: linear-gradient(to bottom, var(--bg1), var(--bg2)); */
 }
 
 

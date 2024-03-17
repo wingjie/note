@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "dev": "vitepress dev --port 8080",
+    "start": "vitepress dev --port 8080",
     "build": "vitepress build",
     "preview": "vitepress preview",
     "build:push": "npm run build && git add . && git commit -m 'update' && git pull && git push && git status && npm run push",

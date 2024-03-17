@@ -18,19 +18,20 @@ hero:
 features:
   - 
     title: 网页导航
-    details: 常用网页导航搜集
+    details: 常用网页导航搜集，响应式布局，方便pc、移动端使用。
     link: https://lwj-wing.gitee.io/wings-nav/
   -
     title: vite-plugin-iconify-preset
     details: npm包 <br/>
-      vite、iconify、小图标
+      vite插件、iconify、小图标
     link: https://www.npmjs.com/package/vite-plugin-iconify-preset#vite-plugin-iconify-preset
   - 
     title: fair-wing
     details: npm包 <br/>
-      处理属性结构数据
+      集合对象（数组、对象相互嵌套），操作时总是递归，此插件就此运用而生
     link: https://www.npmjs.com/package/fair-wing
-  - title: 组件使用文档
+  - 
+    title: 组件使用文档
     details: 基于Ant Design Vue UI封装的表单表格系统性组件
     link: http://lwj-wing.gitee.io/vue3-ant-dome-dos
 ---
