@@ -4,6 +4,8 @@
     "build": "vitepress build",
     "preview": "vitepress preview",
     "build:push": "npm run build && git add . && git commit -m 'update' && git pull && git push && git status && npm run push",
+    "subtree": "git remote add subtree https://github.com/wingjie/wing-note.git",
+    "add": "git subtree add --prefix=vite-note/.vitepress/dist subtree master",
     "pull": "git subtree pull --prefix=.vitepress/dist subtree master",
     "push": "git subtree push --prefix=.vitepress/dist subtree master"
   },
