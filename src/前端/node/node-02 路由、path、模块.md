@@ -207,14 +207,15 @@ url.parse(str, true).query // {user:hny,pass:123456,cont:哈哈}
 
 3. 自定义语法：
 
-    ```js
-// 单个暴露
+ ```js
+
+    // 单个暴露
     exports.fn = function(){}
-module.exports.fn = function(){}
-    
+    module.exports.fn = function(){}
+  
     // 多个暴露
     module.exports = {}
-    ```
+ ```
 
 
 单个和多个不能混着写；
