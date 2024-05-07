@@ -19,7 +19,7 @@ features:
   - 
     title: 网页导航
     details: 常用网页导航搜集，响应式布局，方便pc、移动端使用。
-    link: https://lwj-wing.gitee.io/wings-nav/
+    link: https://wingjie.github.io/wings-nav/
   -
     title: vite-plugin-iconify-preset
     details: npm包 <br/>
@@ -33,5 +33,5 @@ features:
   - 
     title: 组件使用文档
     details: 基于Ant Design Vue UI封装的表单表格系统性组件
-    link: http://lwj-wing.gitee.io/vue3-ant-dome-dos
+    link: http://wingjie.github.io/vue3-ant-dome-dos
 ---
