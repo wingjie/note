@@ -236,7 +236,7 @@ export const increment = (count) => {
 import { combineReducers } from 'redux'  //引入拆分
 
 // 引入两个拆分的js reducer文件
-import login './login'
+import login from './login'
 import bread from './bread'
 
 const rootReducer = combineReducers({
@@ -472,7 +472,7 @@ export default store
 import { combineReducers } from 'redux'  //引入拆分
 
 // 引入两个拆分的js reducer文件
-import login './login'
+import login from './login'
 import bread from './bread'
 
 // 如果有持久化的工具

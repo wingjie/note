@@ -226,7 +226,7 @@ npm i nodemon -D
 
 配置好以后，当代码修改后，应⽤就会⾃动重启了。
 
-## 进程 代码架构
+## 进程-代码架构
 
 **主进程**(main.js): 每个 Electron 应⽤都有⼀个单⼀的主进程，作为应⽤程序的⼊⼝点。 主进程在 Node.js 环境中运⾏，它具有 require 模块和使⽤所有 Node.js API 的能⼒，主进程的核⼼就是：<span style="color: orange">使用 **BrowserWindow** 来创建和管理窗口。</span>
 
@@ -239,30 +239,6 @@ npm i nodemon -D
 **媒介脚本**(preload.js):预加载（Preload）脚本是运⾏在渲染进程中的， 但它是在<font color='red'>⽹⻚内容加载之前执⾏的</font>，这意味着它具有⽐普通渲染器代码更⾼的权限，可以访问 Node.js 的 API，同时⼜可以与⽹⻚内容进⾏安全
 的交互。
 简单说：它是 Node.js 和 Web API 的桥梁，Preload 脚本可以安全地将部分 Node.js 功能暴露给⽹⻚，从⽽减少安全⻛险。
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 ## electron生命周期
 

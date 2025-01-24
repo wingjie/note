@@ -49,7 +49,7 @@ const [rows, setRows] = useState(() => createRows(props.count))
 ## 二、useEffect代替常用生命周期函数
 1. useEffect函数代替了两个生命周期：componentDidMount、componentDidupdate、componentWillUnmount
 
-当在函数返回一个值时，会在组件注销时调用，比如可以在组件注销时清楚定时器
+当在函数返回一个值时，会在组件注销时调用，比如可以在组件注销时清除定时器
 ```jsx
 import React, {useEffect} from 'react'
 export default ()=>{
