@@ -186,7 +186,11 @@ const createWindow = () => {
 
 
 function readFile(_event, src) {
-  return fs.readFileSync(path.join(__dirname, src), 'utf-8')
+  const srcPath = path.join(__dirname, src)
+  if (fs.existsSync(srcPath)) {
+    return fs.readFileSync(srcPath, 'utf-8')
+  }
+  return '文件不存在'
 }
 
 ```
