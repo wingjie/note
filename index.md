@@ -19,7 +19,7 @@ features:
   - 
     title: 网页导航
     details: 常用网页导航搜集，响应式布局，方便pc、移动端使用。
-    link: https://wingjie.github.io/wings-nav/
+    link: https://wingring.top/wing
   -
     title: vite-plugin-iconify-preset
     details: npm包 <br/>
