@@ -3,7 +3,7 @@ import { getSidebarData, getNavData } from './utils/createSideBar.ts'
 
 
 // https://vitepress.dev/reference/site-config
-const BASE_URL = '/wing-note/'
+const BASE_URL = ''
 export default defineConfig({
   base: BASE_URL,
   title: "Wing's Note",
