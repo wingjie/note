@@ -5,7 +5,10 @@
     "preview": "vitepress preview",
     "build:push": "npm run build && git add . && git commit -m 'update' && git pull && git push && git status && npm run push",
     "subtree": "git remote add subtree https://github.com/wingjie/wing-note.git",
+    "gitee": "git remote add gitee https://gitee.com/lwj-wing/wing-note.git",
+    "add:gitee": "git subtree add --prefix=.vitepress/dist gitee master",
     "add": "git subtree add --prefix=.vitepress/dist subtree master",
+    "pull:gitee": "git subtree pull --prefix=.vitepress/dist gitee master",
     "pull": "git subtree pull --prefix=.vitepress/dist subtree master",
     "push": "git subtree push --prefix=.vitepress/dist subtree master"
   },
