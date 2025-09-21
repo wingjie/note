@@ -10,7 +10,7 @@
     "add": "git subtree add --prefix=.vitepress/dist subtree master",
     "pull:gitee": "git subtree pull --prefix=.vitepress/dist gitee master",
     "pull": "git subtree pull --prefix=.vitepress/dist subtree master",
-    "push": "git subtree push --prefix=.vitepress/dist gitee master && git subtree push --prefix=.vitepress/dist subtree master"
+    "push": "git subtree push --prefix=.vitepress/dist subtree master"
   },
   "dependencies": {
     "vitepress": "^1.0.0-rc.45"
