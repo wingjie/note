@@ -213,9 +213,9 @@ Event Loop即事件循环，是浏览器或Node的一种解决javaScript单线�
 
 DOM、ajax、setTimeout并不在v8源码里，而在webAPI，意味着，这几个不是浏览器处理的，是webAPI处理的，当webapi处理完成时，则会将它们推入task queue中，当调用栈没有内容时，则会输入task queue的内容；
 
-![image](https://notecdn.hrhe.cn/images/js-16_闭包、高阶函数、ajax-04.png)
+![image](./images/js-16_闭包、高阶函数、ajax-04.png)
 
-![image](https://notecdn.hrhe.cn/images/js-16_闭包、高阶函数、ajax-05.png)
+![image](./images/js-16_闭包、高阶函数、ajax-05.png)
 
 ### javascript是单线程的
 

@@ -106,13 +106,13 @@ const About = React.lazy(()=>slowImport(import('./pages/About'), 1000))
 
 下图2.chunk.js是通过lazy懒加载的组件展示的，可以修改名称
 
-![image](https://notecdn.hrhe.cn/images/react-04_其他Api，动画-01.png)
+![image](./images/react-04_其他Api，动画-01.png)
 
 ```jsx
 const About = lazy(()=>import(/*webpackChunkName:"about"*/))
 ```
 
-![image](https://notecdn.hrhe.cn/images/react-04_其他Api，动画-02.png)
+![image](./images/react-04_其他Api，动画-02.png)
 
 这里补入大佬的方法
 

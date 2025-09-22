@@ -19,7 +19,7 @@
 
    如：`https://notecdn.hrhe.cn/images/logo.png`
 
-![image](https://notecdn.hrhe.cn/images/七牛云cdn加速图片_09.png)
+![image](./images/七牛云cdn加速图片_09.png)
 
 ## 图片裁剪
 

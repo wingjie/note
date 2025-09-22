@@ -42,7 +42,7 @@ bootstrap是移动设备优先；
 
 2. 栅格参数
 
-![image](https://notecdn.hrhe.cn/images/bootstrap_全局css样式-01.png)
+![image](./images/bootstrap_全局css样式-01.png)
 
 超小屏幕(<768px)：手机，col-xs
 
@@ -56,7 +56,7 @@ bootstrap是移动设备优先；
 
 3. 可用的显示隐藏
 
-![image](https://notecdn.hrhe.cn/images/bootstrap_全局css样式-02.png)
+![image](./images/bootstrap_全局css样式-02.png)
 
 可用的属性：block，inline，inline-block；
 
@@ -79,7 +79,7 @@ col-\*-offset-\*，向右侧偏移，可以实现居中；
 5. 列嵌套
 在col里面添加row，则里面的row的12比较最大宽度也是该col的宽；
 
-![image](https://notecdn.hrhe.cn/images/bootstrap_全局css样式-03.png)
+![image](./images/bootstrap_全局css样式-03.png)
 
 6. 列排序
 col-\*-push-\*：向右去多个列；
@@ -101,13 +101,13 @@ p、li标签(段落)：设置了10px的底部margin；
 
 （2）`<small>`标签被h标签包裹，作为h标签的副标题；
 
-![image](https://notecdn.hrhe.cn/images/bootstrap_全局css样式-04.png)
+![image](./images/bootstrap_全局css样式-04.png)
 
 3. 中心内容
 
 p标签可以添加一个.lead，突出文本显示，普通的p标签和带lead的标签：
 
-![image](https://notecdn.hrhe.cn/images/bootstrap_全局css样式-05.png)
+![image](./images/bootstrap_全局css样式-05.png)
 
 4. 可以使用的标签
 
@@ -133,17 +133,17 @@ del、s、ins、u、small，在bootstrap可以放心使用b、i标签；
 
 使用abbr标签，需要写title属性；地址可以使用address标签
 
-![image](https://notecdn.hrhe.cn/images/bootstrap_全局css样式-06.png)
+![image](./images/bootstrap_全局css样式-06.png)
 
 8. 引用样式
 
 （1）使用`<blockquote>`标签，会多一个竖线；
 
-![image](https://notecdn.hrhe.cn/images/bootstrap_全局css样式-07.png)
+![image](./images/bootstrap_全局css样式-07.png)
 
 （2）引用来源，在blockquote标签内，添加footer标明引用来源，来源名包进cite标签；
 
-![image](https://notecdn.hrhe.cn/images/bootstrap_全局css样式-08.png)
+![image](./images/bootstrap_全局css样式-08.png)
 
 ```html
 <blockquote>
@@ -161,40 +161,40 @@ del、s、ins、u、small，在bootstrap可以放心使用b、i标签；
 
 （3）给dl添加.dl-horizontal类，可以将其描述排在一行；
 
-![image](https://notecdn.hrhe.cn/images/bootstrap_全局css样式-09.png)
+![image](./images/bootstrap_全局css样式-09.png)
 
 
 10. 内联代码
 
 （1）使用`<code>`标签包裹代码片段，自带样式，
 
-![image](https://notecdn.hrhe.cn/images/bootstrap_全局css样式-10.png)
+![image](./images/bootstrap_全局css样式-10.png)
 
 （2）用户输入，使用`<kbd>`标签
 
-![image](https://notecdn.hrhe.cn/images/bootstrap_全局css样式-11.png)
+![image](./images/bootstrap_全局css样式-11.png)
 
 （3）代码块：`<pre>`标签；
 
-![image](https://notecdn.hrhe.cn/images/bootstrap_全局css样式-12.png)
+![image](./images/bootstrap_全局css样式-12.png)
 
 （4）程序输出
 
 使用samp标签，和普通p标签的对比：
 
-![image](https://notecdn.hrhe.cn/images/bootstrap_全局css样式-13.png)
+![image](./images/bootstrap_全局css样式-13.png)
 
 
 ## 五、表格
 1. 给表格添加类：.table；基本样式：
 
-![image](https://notecdn.hrhe.cn/images/bootstrap_全局css样式-14.png)
+![image](./images/bootstrap_全局css样式-14.png)
 2. 条纹状表格：.table-striped类；会给tbody添加条纹；
 
-![image](https://notecdn.hrhe.cn/images/bootstrap_全局css样式-15.png)
+![image](./images/bootstrap_全局css样式-15.png)
 3. 带边框的表格：.table-bordered；每个单元格都增加边框；
 
-![image](https://notecdn.hrhe.cn/images/bootstrap_全局css样式-16.png)
+![image](./images/bootstrap_全局css样式-16.png)
 4. 鼠标移动到行悬停：.table-hover；滑过每一行都会变色，不建议搭配条纹使用；
 5. 紧缩表格：.table-condensed；可以更紧凑，padding会减半；
 6. 状态类的行：给tr添加类名.active、.success、.info、.warning、.danger
@@ -206,7 +206,7 @@ del、s、ins、u、small，在bootstrap可以放心使用b、i标签；
 }
 ```
 
-![image](https://notecdn.hrhe.cn/images/bootstrap_全局css样式-17.png)
+![image](./images/bootstrap_全局css样式-17.png)
 总结：
 1. .table 加上边框
 2. .table-striped 加条纹
@@ -249,7 +249,7 @@ del、s、ins、u、small，在bootstrap可以放心使用b、i标签；
 </div>
 ```
 
-![image](https://notecdn.hrhe.cn/images/bootstrap_全局css样式-18.png)
+![image](./images/bootstrap_全局css样式-18.png)
 
 
 
@@ -278,7 +278,7 @@ checked添加了列偏移；checked需要包裹一个div类名为checked的标�
     </div>
 </form>
 ```
-![image](https://notecdn.hrhe.cn/images/bootstrap_全局css样式-19.png)
+![image](./images/bootstrap_全局css样式-19.png)
 
 
 （4）button添加类btn和样式，添加type='submit'，需要对齐就得被form-group组包裹；
@@ -302,11 +302,11 @@ checked添加了列偏移；checked需要包裹一个div类名为checked的标�
     </div>
 </div>
 ```
-![image](https://notecdn.hrhe.cn/images/bootstrap_全局css样式-20.png)
+![image](./images/bootstrap_全局css样式-20.png)
 
 （2）控制大小，给input-group再添加相应的类名，input-group-lg/sm；输入框会自动变大；
 
-![image](https://notecdn.hrhe.cn/images/bootstrap_全局css样式-21.png)
+![image](./images/bootstrap_全局css样式-21.png)
 
 （3）添加额外元素多选和单选
 
@@ -319,7 +319,7 @@ checked添加了列偏移；checked需要包裹一个div类名为checked的标�
     <input type="text" aria-label='...' class="form-control">
 </div>
 ```
-![image](https://notecdn.hrhe.cn/images/bootstrap_全局css样式-22.png)
+![image](./images/bootstrap_全局css样式-22.png)
 
 （4）作为额外元素的按钮
 ```html
@@ -330,7 +330,7 @@ checked添加了列偏移；checked需要包裹一个div类名为checked的标�
     </span>
 </div>
 ```
-![image](https://notecdn.hrhe.cn/images/bootstrap_全局css样式-23.png)
+![image](./images/bootstrap_全局css样式-23.png)
 
 （5）作为额外元素的按钮式下拉菜单
 ```html
@@ -348,7 +348,7 @@ checked添加了列偏移；checked需要包裹一个div类名为checked的标�
       <input type="text" class="form-control" aria-label="...">
 </div><!-- /input-group -->
 ```
-![image](https://notecdn.hrhe.cn/images/bootstrap_全局css样式-24.png)
+![image](./images/bootstrap_全局css样式-24.png)
 
 （6）分裂式的按钮
 ```html
@@ -371,7 +371,7 @@ checked添加了列偏移；checked需要包裹一个div类名为checked的标�
     <input type="text" class="form-control" aria-label="Text input with segmented button dropdown">
 </div>
 ```
-![image](https://notecdn.hrhe.cn/images/bootstrap_全局css样式-25.png)
+![image](./images/bootstrap_全局css样式-25.png)
 
 6. 选择框
 
@@ -383,7 +383,7 @@ checked添加了列偏移；checked需要包裹一个div类名为checked的标�
     </label>
 </div>
 ```
-![image](https://notecdn.hrhe.cn/images/bootstrap_全局css样式-26.png)
+![image](./images/bootstrap_全局css样式-26.png)
 
 （2）内联单选和多选框；
 
@@ -399,7 +399,7 @@ checked添加了列偏移；checked需要包裹一个div类名为checked的标�
   <input type="checkbox" id="inlineCheckbox3" value="option3"> 3
 </label>
 ```
-![image](https://notecdn.hrhe.cn/images/bootstrap_全局css样式-27.png)
+![image](./images/bootstrap_全局css样式-27.png)
 
 
 7. 下拉列表：给select添加.form-control；
@@ -409,7 +409,7 @@ checked添加了列偏移；checked需要包裹一个div类名为checked的标�
   <option>2</option>
 </select>
 ```
-![image](https://notecdn.hrhe.cn/images/bootstrap_全局css样式-28.png)
+![image](./images/bootstrap_全局css样式-28.png)
 
 8. 静态控件：将input标签替换p标签，添加.form-control-static类
 ```html
@@ -420,7 +420,7 @@ checked添加了列偏移；checked需要包裹一个div类名为checked的标�
     </div>
 </div>
 ```
-![image](https://notecdn.hrhe.cn/images/bootstrap_全局css样式-29.png)
+![image](./images/bootstrap_全局css样式-29.png)
 
 9. 帮助文本，可以对照帮助文本输入内容；
 
@@ -431,7 +431,7 @@ checked添加了列偏移；checked需要包裹一个div类名为checked的标�
 <span id="helpBlock" class="help-block">A block of help text that breaks onto a new line and may extend beyond one line.</span>
 ```
 
-![image](https://notecdn.hrhe.cn/images/bootstrap_全局css样式-30.png)
+![image](./images/bootstrap_全局css样式-30.png)
 
 10. 校验状态
 
@@ -462,7 +462,7 @@ span标签：glyphicon（字体文件）    glyphicon-warning-sign警告图标  
 
 建议：强烈建议使用input需要添加label标签，如果不想label标签显示，可以添加sr-only类，不添加label标签需要额外调整图标的位置；
 
-![image](https://notecdn.hrhe.cn/images/bootstrap_全局css样式-31.png)
+![image](./images/bootstrap_全局css样式-31.png)
 
 
 11. 输入框尺寸
@@ -491,13 +491,13 @@ span标签：glyphicon（字体文件）    glyphicon-warning-sign警告图标  
 
 使用按钮必须有btn类，另外一个是图标类：btn-default；btn-info
 
-![image](https://notecdn.hrhe.cn/images/bootstrap_全局css样式-32.png)
+![image](./images/bootstrap_全局css样式-32.png)
 
 3. 尺寸
 
 可用的类：.btn-lg、.btn-sm、.btn-xs可以获得不同的尺寸；
 
-![image](https://notecdn.hrhe.cn/images/bootstrap_全局css样式-33.png)
+![image](./images/bootstrap_全局css样式-33.png)
 
 .btn-block可以拉伸父元素的100%宽度；
 
@@ -505,7 +505,7 @@ span标签：glyphicon（字体文件）    glyphicon-warning-sign警告图标  
 
 button是用:active实现的，a标签是用.active实现的；也可以给button加类；
 
-![image](https://notecdn.hrhe.cn/images/bootstrap_全局css样式-34.png)
+![image](./images/bootstrap_全局css样式-34.png)
 
 5. 禁用状态
 
@@ -526,7 +526,7 @@ a标签添加disabled类；
 
 .img-rounded、.img-circle、.img-thumbnail
 
-![image](https://notecdn.hrhe.cn/images/bootstrap_全局css样式-35.png)
+![image](./images/bootstrap_全局css样式-35.png)
 
 
 
@@ -535,7 +535,7 @@ a标签添加disabled类；
 
 .text-muted、.text-primary、.text-success、.text-info、.text-warning、.text-danger；
 
-![image](https://notecdn.hrhe.cn/images/bootstrap_全局css样式-36.png)
+![image](./images/bootstrap_全局css样式-36.png)
 
 2. 情景背景
 
@@ -548,7 +548,7 @@ a标签添加disabled类；
 ```
 4. 三角符号：添加类.caret；
 
-![image](https://notecdn.hrhe.cn/images/bootstrap_全局css样式-37.png)
+![image](./images/bootstrap_全局css样式-37.png)
 
 5. 快速浮动
 

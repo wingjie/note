@@ -493,15 +493,15 @@ forever也是一种保持后台运行的插件，建议使用pm2就可以了，�
 
 2. 启动某个项目：forever start 文件名
 
-   ![image](https://notecdn.hrhe.cn/images/server-03_linux常用-02.png)
+   ![image](./images/server-03_linux常用-02.png)
 
 3. 查看后台运行的项目：forever list
 
-   ![image](https://notecdn.hrhe.cn/images/server-03_linux常用-03.png)
+   ![image](./images/server-03_linux常用-03.png)
 
 4. 停止某个项目：forever stop [pid]
 
-   ![image](https://notecdn.hrhe.cn/images/server-03_linux常用-04.png)
+   ![image](./images/server-03_linux常用-04.png)
 
 5. 停止所有项目：forever stopall
 

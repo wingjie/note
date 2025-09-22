@@ -2,7 +2,7 @@
 
 ## 小方法
 1. 鼠标变手型：cursor:pointer;
-  ![image](https://notecdn.hrhe.cn/images/css小方法-01.png)
+  ![image](./images/css小方法-01.png)
 2. 鼠标手型变禁用的：not-allowed
 3. 文本框蓝色边框取消掉：outline:none; 或 outline:0;
 4. 修改边框的颜色：caret-color: red;
@@ -51,7 +51,7 @@
 
 用途：在input框上，使用label标签替换掉placeholder内容（设置好定位），当点击时，想输入文字时会点击到label的文字上，可以加入该属性，不让点中；
 
-![image](https://notecdn.hrhe.cn/images/css小方法-02.png)
+![image](./images/css小方法-02.png)
 
 
 
@@ -221,7 +221,7 @@ scrolldelay滚动延时
 
 ## 横向可以滚动
 
-![image](https://notecdn.hrhe.cn/images/css小方法-03.png)
+![image](./images/css小方法-03.png)
 
 ```html
 <div class='parent'>
@@ -388,9 +388,9 @@ div {
 
 可以通过给元素添加阴影，实现边框，在浏览器f12可以调试，添加内阴影；
 
-![image](https://notecdn.hrhe.cn/images/css小方法-04.png)
+![image](./images/css小方法-04.png)
 
-![image](https://notecdn.hrhe.cn/images/css小方法-05.png)
+![image](./images/css小方法-05.png)
 
 
 
@@ -465,7 +465,7 @@ input:checked + label{
 }
 ```
 
-![image](https://notecdn.hrhe.cn/images/css小方法-06.png)
+![image](./images/css小方法-06.png)
 
 
 
@@ -504,7 +504,7 @@ input:checked + .switch::after{
 }
 ```
 
-![image](https://notecdn.hrhe.cn/images/css小方法-07.png)
+![image](./images/css小方法-07.png)
 
 
 
@@ -611,7 +611,7 @@ animation: linearGradientMove .5s infinite linear;
 }
 ```
 
-![image](https://notecdn.hrhe.cn/images/css小方法-08.png)
+![image](./images/css小方法-08.png)
 
 
 
@@ -678,7 +678,7 @@ background: linear-gradient(0, $red 2px, $red 2px) no-repeat left top/0 2px,
 }
 ```
 
-![image](https://notecdn.hrhe.cn/images/css小方法-09.png)
+![image](./images/css小方法-09.png)
 
 
 
@@ -712,7 +712,7 @@ text-overflow:ellipsis; /*不换行，超出部分隐藏且以省略号形式出
 
 ## 快速查看html元素位置信息
 
-![image](https://notecdn.hrhe.cn/images/css小方法-12.png)
+![image](./images/css小方法-12.png)
 
 ```css
 html * {
@@ -784,9 +784,9 @@ span{
 
 ## 动态变三角形
 
-![image](https://notecdn.hrhe.cn/images/css小方法-13.png)
+![image](./images/css小方法-13.png)
 
-![image](https://notecdn.hrhe.cn/images/css小方法-14.png)
+![image](./images/css小方法-14.png)
 
 ```html
 <div class='demo'>
@@ -907,7 +907,7 @@ methods: {
 }
 ```
 
-![image](https://notecdn.hrhe.cn/images/css小方法-15.png)
+![image](./images/css小方法-15.png)
 
 
 

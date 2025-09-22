@@ -174,7 +174,7 @@ D:冒号切换盘符；一个点表示当前目录，两个点表示上一级目
 
 （7）node.js操作的是服务器上的文件，不是本地的文件；
 
-![image](https://notecdn.hrhe.cn/images/node-01_http_nodejs-01.png)
+![image](./images/node-01_http_nodejs-01.png)
 
 
 2. 重点：

@@ -97,7 +97,7 @@ x,y：起始位置，w,h：要清除的内容宽高；
 
 圆形的坐标系：
 
-![image](https://notecdn.hrhe.cn/images/canvas-01.png)
+![image](./images/canvas-01.png)
 
 
 ## 六、碰撞的小球
